@@ -2,8 +2,8 @@
  
 typedef struct 
 {
+    char str[5]; 
     int num;
-    char str[3];  
 } NumberRepr; 
 
 void format(NumberRepr* number) 
